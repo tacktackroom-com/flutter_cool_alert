@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Cool Alert',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.yellow,
         fontFamily: GoogleFonts.poppins().fontFamily,
       ),
       home: MyHomePage(title: 'Cool Alert'),
@@ -172,7 +172,8 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _buildButton({VoidCallback? onTap, required String text, Color? color}) {
+  Widget _buildButton(
+      {VoidCallback? onTap, required String text, Color? color}) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 10.0),
       child: MaterialButton(
