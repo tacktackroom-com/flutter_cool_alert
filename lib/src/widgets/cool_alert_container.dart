@@ -17,7 +17,7 @@ class CoolAlertContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _header = _buildHeader(context);
+    // final _header = _buildHeader(context);
     final _title = _buildTitle(context);
     final _text = _buildText(context);
     final _buttons = _buildButtons();
