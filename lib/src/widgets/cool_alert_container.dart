@@ -45,7 +45,7 @@ class CoolAlertContainer extends StatelessWidget {
       width: options!.width ?? MediaQuery.of(context).size.width,
       child: Column(
         mainAxisSize: MainAxisSize.min,
-        children: [_header, _content],
+        // children: [_header, _content],
       ),
     );
   }
